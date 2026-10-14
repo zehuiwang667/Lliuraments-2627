@@ -58,6 +58,5 @@ L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb
 |**Presència sobre l’escenari** |   No ha presentat  |   Li costa expressar-se en públic i mostra dificultats per fer-se entendre.  |   S’expressa amb naturalitat i claredat. Se’l veu còmode quan parla en públic.|
 
 
-![A Fucking spinning Fish](/LMSGI/practica0-github-markdown/fish.gif "Yeah") ![A Fucking spinning Fish](/LMSGI/practica0-github-markdown/fish.gif "Yeah") ![A Fucking spinning Fish](/LMSGI/practica0-github-markdown/fish.gif "Yeah")
-
+![A Fucking spinning Fish](/LMSGI/practica0-github-markdown/fish.gif "Yeah")             ![A Fucking spinning Fish](/LMSGI/practica0-github-markdown/fish.gif "Yeah") 
 
