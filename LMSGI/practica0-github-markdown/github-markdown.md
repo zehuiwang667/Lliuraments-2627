@@ -56,3 +56,6 @@ L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb
 |**Estil de les transparències** |   No s’ha realitzat o conté erros greus.  |   Pobre, poc treballat o es nota que s’ha fet a correcuita.  |   Correcte, agradable a la vista i homogeni.|
 |**Temps**|   Menys de 3 minuts o més de 7 minuts.  |   Menys de 4 minuts o més de 6 minuts.  |   Exactament o aproximadament 5 minuts (2:30 per alumne).|
 |**Presència sobre l’escenari** |   No ha presentat  |   Li costa expressar-se en públic i mostra dificultats per fer-se entendre.  |   S’expressa amb naturalitat i claredat. Se’l veu còmode quan parla en públic.|
+
+
+![A Fucking spinning Fish](/LMSGI/practica0-github-markdown/fish.gif "Yeah")
