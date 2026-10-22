@@ -9,19 +9,19 @@ erDiagram
 
 Li afegim el atributs que tindra el ```Personatge```
 
-```PK```:Clau Primaria(Atribut Identificador).
+```PK```: Clau Primaria(Atribut Identificador).
 
-```"NOT NULL"```:Ha de tenir un valor obligatoriament(Atributs no nul).
+```"NOT NULL"```: Ha de tenir un valor obligatoriament(Atributs no nul).
 
 Cada **Atribut** ha de tenir un tipus de dada.
 
-```string```:Text literal.
+```string```: Text literal.
 
-```int```:Nombre enter.
+```int```: Nombre enter.
 
-```float```:Nombre amb decimals.
+```float```: Nombre amb decimals.
 
-```boolean```:Vertader o Fals
+```boolean```: Vertader o Fals
 
 ```mermaid
 erDiagram
