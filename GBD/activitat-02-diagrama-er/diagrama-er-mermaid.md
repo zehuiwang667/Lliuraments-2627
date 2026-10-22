@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
 
     PERSONATGE {
@@ -59,3 +60,4 @@ erDiagram
     HABILITAT }o--o{ ENEMIC : "enfrenta"
 
     MASCOTA }o--o{ ITEM : "carrega"
+```
