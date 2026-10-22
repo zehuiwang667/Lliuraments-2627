@@ -1,5 +1,6 @@
 # Model E/R (en Mermaid)
 
+
 Per fer el diagrama primer em de crear l'entitat que connecta tot: ```Personatge```.
 
 ```mermaid
