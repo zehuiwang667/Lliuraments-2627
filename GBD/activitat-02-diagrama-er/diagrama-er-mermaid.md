@@ -36,6 +36,20 @@ erDiagram
         int Agilitat
         int Carisma
     }
+```
+
+```mermaid
+erDiagram
+
+    PERSONATGE {
+        string DNI PK
+        string Nom "NOT NULL"
+        string Cognom
+        int Vida
+        int Forca
+        int Agilitat
+        int Carisma
+    }
 
     HABILITAT {
         string Codi PK
