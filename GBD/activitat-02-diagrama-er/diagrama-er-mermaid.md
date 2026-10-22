@@ -38,6 +38,68 @@ erDiagram
     }
 ```
 
+Repetim aquest procés fins a tenir totes les entitats creades:
+
+```Habilitat```
+
+```mermaid
+erDiagram
+    HABILITAT {
+        string Codi PK
+        string Nom "NOT NULL"
+        int Cost
+        int Dany
+        float Cooldown
+        string Tipus "NOT NULL"
+    }
+```
+
+```Enemic```
+
+```mermaid
+erDiagram
+    ENEMIC {
+        string Codi PK
+        string Nom "NOT NULL"
+        string Tipus "NOT NULL"
+        int Nivell "NOT NULL"
+        int Vida
+        int Forca
+        int Agilitat
+        int Carisma
+    }
+```
+
+```Mascota```
+
+```mermaid
+erDiagram
+    MASCOTA {
+        string Num_Chip PK
+        string Nom "NOT NULL"
+        boolean Motxilla
+    }
+```
+
+```Item```
+
+```mermaid
+erDiagram
+    ITEM {
+        string Codi PK
+        string Nom "NOT NULL"
+        boolean Equipable
+        boolean Comerciable "NOT NULL"
+        string Tipus "NOT NULL"
+        float Pes "NOT NULL"
+        string Qualitat "NOT NULL"
+        %% Mesures (atribut compost) -> separat en X, Y, Z
+        float Mesura_X "NOT NULL"
+        float Mesura_Y "NOT NULL"
+        float Mesura_Z "NOT NULL"
+    }
+```
+
 ```mermaid
 erDiagram
 
