@@ -18,7 +18,7 @@ erDiagram
     
 > ```string```: Text literal.
 > 
-> ```int```: Nombre enter.
+> ```int```: Nombre sencer.
 > 
 > ```float```: Nombre amb decimals.
 > 
