@@ -1,20 +1,20 @@
 # Model E/R (en Mermaid)
 
 
-Per fer el diagrama primer em de crear l'entitat que connecta tot: ```Personatge```.
+## Per fer el diagrama primer em de crear l'entitat que connecta tot: ```Personatge```.
 
 ```mermaid
 erDiagram
     Personatge
 ```
 
-Li afegim el atributs que tindra el ```Personatge```
+### Li afegim el atributs que tindra el ```Personatge```
     
 > ```PK```: Clau Primaria(Atribut Identificador).
 >
 > ```"NOT NULL"```: Ha de tenir un valor obligatoriament(Atributs no nul).
 
-Cada **Atribut** ha de tenir un tipus de dada.
+#### Cada **Atribut** ha de tenir un tipus de dada.
     
 > ```string```: Text literal.
 > 
@@ -100,7 +100,9 @@ erDiagram
     }
 ```
 
-Hi existeixem diferents diferents tipus de **relacions**.
+## Hi existeixem diferents diferents tipus de **relacions**.
+
+
 
 ```mermaid
 erDiagram
