@@ -14,7 +14,7 @@ erDiagram
 >
 > ```"NOT NULL"```: Ha de tenir un valor obligatoriament(Atributs no nul).
 
-#### Cada **Atribut** ha de tenir un tipus de dada.
+### Cada **Atribut** ha de tenir un tipus de dada.
     
 > ```string```: Text literal.
 > 
@@ -100,9 +100,9 @@ erDiagram
     }
 ```
 
-## Hi existeixem diferents diferents tipus de **relacions**.
+### **Relacions** utilitzats en aquesta diagrama:
 
-
+Relació Molts a Molts (M:N), és representa amb ```}o-```
 
 ```mermaid
 erDiagram
@@ -126,6 +126,28 @@ erDiagram
         string Tipus "NOT NULL"
     }
     PERSONATGE }o--o{ HABILITAT : "posseeix"
+```
+
+Relació Molts a Molts (M:N), és representa amb ```||-```
+
+```mermaid
+erDiagram
+
+    PERSONATGE {
+        string DNI PK
+        string Nom "NOT NULL"
+        string Cognom
+        int Vida
+        int Forca
+        int Agilitat
+        int Carisma
+    }
+    MASCOTA {
+        string Num_Chip PK
+        string Nom "NOT NULL"
+        boolean Motxilla
+    }
+    PERSONATGE ||--|| MASCOTA : "acompanya"
 ```
 
 Ara li afegim les relacions que tenen entre ```Personatge```, ```Habilitat```, ```Mascota```, ```Enemic```, ```Item```
