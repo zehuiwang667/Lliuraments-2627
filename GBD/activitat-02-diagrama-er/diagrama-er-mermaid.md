@@ -100,6 +100,34 @@ erDiagram
     }
 ```
 
+Hi existeixem diferents diferents tipus de **relacions**.
+
+```mermaid
+erDiagram
+
+    PERSONATGE {
+        string DNI PK
+        string Nom "NOT NULL"
+        string Cognom
+        int Vida
+        int Forca
+        int Agilitat
+        int Carisma
+    }
+
+    HABILITAT {
+        string Codi PK
+        string Nom "NOT NULL"
+        int Cost
+        int Dany
+        float Cooldown
+        string Tipus "NOT NULL"
+    }
+    PERSONATGE }o--o{ HABILITAT : "posseeix"
+```
+
+Ara li afegim les relacions que tenen entre ```Personatge```, ```Habilitat```, ```Mascota```, ```Enemic```, ```Item```
+
 ```mermaid
 erDiagram
 
