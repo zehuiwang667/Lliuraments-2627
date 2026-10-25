@@ -128,7 +128,7 @@ erDiagram
     PERSONATGE }o--o{ HABILITAT : "posseeix"
 ```
 
-Relació Molts a Molts (M:N), és representa amb ```||-```
+Relació Un a Un (1:1), és representa amb ```||-```
 
 ```mermaid
 erDiagram
