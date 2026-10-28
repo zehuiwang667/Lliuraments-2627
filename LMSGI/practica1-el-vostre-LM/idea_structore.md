@@ -1,6 +1,20 @@
 
-/name 'apb'
+name 'apb'
+capitulo 1
+stats {
+  pv {
+    maximo 200
+    actual 38
+  }
+  items [
+    vida 12
+    effecto 'attaque'
+    calidad 'epico'
+  ]
+}
 
+
+/name 'apb'
 /stats:
 //pv:
 ///maximo 200
@@ -29,3 +43,17 @@
     /calidad 'normal'
    ]
 
+/habilidades:
+//pasiva_1 t
+//pasiva_2 f
+//pasiva_ascenso t
+
+
+
+
+
+
+
+
+78/problemas:
+79/muchos 'problemas'
