@@ -10,7 +10,12 @@ stats {
     vida 12
     effecto 'attaque'
     calidad 'epico'
-  ]
+  ];
+ [
+   vida -5
+   effecto 'curacion'
+   calidad 'normal'
+ ]
 }
 
 
