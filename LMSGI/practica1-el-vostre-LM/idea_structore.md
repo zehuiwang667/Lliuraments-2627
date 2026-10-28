@@ -1,22 +1,22 @@
 
 name 'apb'
 capitulo 1
-stats {
-  pv {
+stats (
+  pv (
     maximo 200
     actual 38
-  }
+  )
   items [
     vida 12
     effecto 'attaque'
     calidad 'epico'
-  ];
- [
-   vida -5
-   effecto 'curacion'
-   calidad 'normal'
- ]
-}
+  ],
+  [
+    vida -5
+    effecto 'curacion'
+    calidad 'normal'
+  ]
+)
 
 
 /name 'apb'
