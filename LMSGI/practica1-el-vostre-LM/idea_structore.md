@@ -1,4 +1,6 @@
 # ver 3
+
+```
 name 'apb'
 stats:
 /pv:
@@ -32,11 +34,13 @@ habilidades:
 /pasiva_1 t
 /pasiva_2 f
 /pasiva_ascenso t
+```
 
 
 
 
 # ver 2
+```
 name 'apb'
 capitulo 1
 stats (
@@ -54,11 +58,12 @@ stats (
     effecto 'curacion'
     calidad 'normal'
   ]
-)
+```
 
 
 # ver 1
 
+```
 /name 'apb'
 /stats:
 //pv:
@@ -92,13 +97,14 @@ stats (
 //pasiva_1 t
 //pasiva_2 f
 //pasiva_ascenso t
+``` 
 
 
 
 
+Prueba rancia num x times / before / to tell recursion level
 
-
-
-
+```
 78/problemas:
 79/muchos 'problemas'
+```
