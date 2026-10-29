@@ -58,6 +58,7 @@ stats (
     effecto 'curacion'
     calidad 'normal'
   ]
+)
 ```
 
 
