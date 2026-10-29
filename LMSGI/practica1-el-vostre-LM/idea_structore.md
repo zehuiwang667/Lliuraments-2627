@@ -100,6 +100,45 @@ stats (
 //pasiva_ascenso t
 ``` 
 
+# ver 1 - array variant
+
+```
+/name 'apb'
+/stats:
+//pv:
+///maximo 200
+///actual 38
+
+/items:
+//pociones:
+///*
+///vida 12
+///effecto 'attaque'
+///calidad 'epico'
+///*
+///*
+///vida -5
+///effecto 'curacion'
+///calidad 'normal'
+///*
+
+//amuletos:
+///*
+///vida 12
+///effecto 'attaque'
+///calidad 'epico'
+///*
+///*
+///vida -5
+///effecto 'curacion'
+///calidad 'normal'
+///*
+
+/habilidades:
+//pasiva_1 t
+//pasiva_2 f
+//pasiva_ascenso t
+``` 
 
 
 
