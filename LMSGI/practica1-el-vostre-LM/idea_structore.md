@@ -1,4 +1,7 @@
-# ver 3
+# Juason mark lang
+
+
+## ver 3 - unkown weirdo
 
 ```
 name 'apb'
@@ -39,7 +42,7 @@ habilidades:
 
 
 
-# ver 2
+## ver 2 - minimalistic star
 ```
 name 'apb'
 capitulo 1
@@ -62,7 +65,7 @@ stats (
 ```
 
 
-# ver 1
+## ver 1 - chonky lang
 
 ```
 /name 'apb'
@@ -100,7 +103,7 @@ stats (
 //pasiva_ascenso t
 ``` 
 
-# ver 1 - array variant
+## ver 1 - array variant - promising?
 
 ```
 /name 'apb'
