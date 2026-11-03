@@ -3,7 +3,7 @@
 ## Juason - Práctica 1: Lenguajes de marcas
 
 **Autores:** Arnau Postigo y Zehui Wang  
-**Curso:** 1. ASIX  
+**Curso:** 1.º ASIX  
 **Módulo:** Lenguajes de marcas
 
 Nuestro proyecto consiste en crear un lenguaje de marcas propio llamado **Juason**. Su objetivo es guardar la información de las partidas de un videojuego llamado `eljuego.py`.
@@ -27,12 +27,12 @@ Con el desarrollo de la informática aparecieron diferentes lenguajes de marcas:
 
 ## ¿Para qué sirven los lenguajes de marcas?
 
-Los lenguajes de marcas tienen diferentes aplicaciones.
+Los lenguajes de marcas tienen diferentes aplicaciones:
 
 - **Páginas web:** HTML permite organizar el contenido de una página mediante títulos, párrafos, enlaces e imágenes.
 - **Almacenamiento de datos:** XML permite guardar información de forma estructurada para que pueda ser interpretada por programas.
 - **Documentación:** Markdown permite crear documentos con títulos, listas y otros elementos utilizando texto sencillo.
-- **Documentos de oficina:** los formatos DOCX y PPTX utilizan internamente documentos XML.
+- **Documentos de oficina:** Los formatos DOCX y PPTX utilizan internamente documentos XML.
 
 Una de sus principales ventajas es que muchos de estos lenguajes pueden escribirse con un editor de texto normal.
 
@@ -56,7 +56,7 @@ El proyecto es un **prototipo**, por lo que todavía no hemos desarrollado un pr
 
 ## ¿Cómo funciona Juason?
 
-Juason utiliza distintas marcas para organizar los datos.
+Juason utiliza distintas marcas para organizar los datos:
 
 - Los nombres identifican qué información se está guardando.
 - Los dos puntos indican que un elemento contiene otros datos.
@@ -71,30 +71,33 @@ De esta manera, el lenguaje permite distinguir entre diferentes tipos de informa
 
 ## Reglas de Juason
 
-Para que el lenguaje funcione correctamente hemos establecido algunas reglas.
+Para que el lenguaje funcione correctamente hemos establecido algunas reglas:
 
-1. Los nombres de los elementos se escriben en minúsculas, sin espacios ni tildes. Si necesitamos separar palabras, utilizamos el guion bajo.
-2. Los elementos principales no llevan barras delante.
-3. Los elementos que se encuentran dentro de un grupo llevan una barra (`/`).
-4. Los elementos que están dentro de un subgrupo llevan dos barras (`//`). Cada barra adicional representa un nivel más de profundidad.
-5. Los grupos se identifican mediante dos puntos (`:`).
-6. Las listas contienen elementos agrupados entre corchetes (`[...]`), que pueden separarse mediante puntos y coma (`;`).
-7. Dentro de los corchetes, los datos de cada objeto se escriben sin barras, porque ya pertenecen al objeto correspondiente.
-8. Los valores pueden ser textos, números o valores booleanos.
+- Los nombres de los elementos se escriben en minúsculas, sin espacios ni tildes. Si necesitamos separar palabras, utilizamos el guion bajo.
+- Los elementos principales no llevan barras delante.
+- Los elementos que se encuentran dentro de un grupo llevan una barra.
+- Los elementos que están dentro de un subgrupo llevan dos barras.
+- Cada barra adicional representa un nivel más de profundidad.
+- Los grupos se identifican mediante dos puntos (`:`).
+- Las listas contienen elementos agrupados entre corchetes (`[]`), que pueden separarse mediante puntos y coma (`;`).
+- Dentro de los corchetes, los datos de cada objeto se escriben sin barras, porque ya pertenecen al objeto correspondiente.
+- Los valores pueden ser textos, números o valores booleanos (`t` / `f`).
 
 ## Clasificación de nuestro lenguaje
 
-Los lenguajes de marcas pueden clasificarse según su función.
+Los lenguajes de marcas pueden clasificarse según su función:
 
-- **Lenguajes de presentación:** indican cómo debe mostrarse la información.
-- **Lenguajes procedimentales:** contienen instrucciones relacionadas con el formato del contenido.
-- **Lenguajes descriptivos o semánticos:** identifican qué representa cada elemento.
+- **Lenguajes de presentación:** Indican cómo debe mostrarse la información.
+- **Lenguajes procedimentales:** Contienen instrucciones relacionadas con el formato del contenido.
+- **Lenguajes descriptivos o semánticos:** Identifican qué representa cada elemento.
 
 Juason pertenece principalmente al grupo de los **lenguajes descriptivos o semánticos**.
 
 Esto se debe a que sus marcas indican el significado de los datos, pero no su apariencia.
 
-Por ejemplo, Juason permite identificar la vida actual de un personaje, pero no indica si debe mostrarse mediante una barra verde, un número o cualquier otro elemento visual. Esa decisión correspondería al videojuego.
+Por ejemplo, Juason permite identificar la vida actual de un personaje, pero no indica si debe mostrarse mediante una barra verde, un número o cualquier otro elemento visual.
+
+Esa decisión correspondería al videojuego.
 
 ## Ejemplo de uso de Juason
 
@@ -106,7 +109,10 @@ Imaginemos una partida de `eljuego.py` con la siguiente información:
 - La primera tiene un valor de vida de 12, un efecto de ataque y una calidad épica.
 - La segunda tiene un valor de vida de -5, un efecto de curación y una calidad normal.
 - También tiene dos amuletos con esas mismas características.
-- Por último, tiene tres habilidades pasivas: la primera está activada, la segunda está desactivada y la habilidad de ascenso está activada.
+- Por último, tiene tres habilidades pasivas.
+- La primera está activada (`t`).
+- La segunda está desactivada (`f`).
+- La habilidad de ascenso está activada (`t`).
 
 Toda esta información puede guardarse en un archivo `.juson` utilizando las reglas que hemos definido.
 
@@ -114,7 +120,9 @@ Toda esta información puede guardarse en un archivo `.juson` utilizando las reg
 
 Un ejemplo de uso sería el sistema de guardado de `eljuego.py`.
 
-Cuando el jugador cierre el juego, el programa podría guardar el estado de la partida en un archivo `.juson`. Cuando vuelva a abrirlo, el programa podría leer ese archivo y recuperar los datos.
+Cuando el jugador cierre el juego, el programa podría guardar el estado de la partida en un archivo `.juson`.
+
+Cuando vuelva a abrirlo, el programa podría leer ese archivo y recuperar los datos.
 
 Este sistema tendría algunas ventajas:
 
@@ -129,27 +137,39 @@ Además, al tratarse de texto plano, no necesitaríamos un programa especial par
 
 Juason está pensado para almacenar información de partidas, pero no sería adecuado para cualquier situación.
 
-Por ejemplo, no sería la mejor opción para crear la página web de `eljuego.py`. Una página web necesita títulos, párrafos, enlaces, imágenes y otros elementos visuales. Juason puede identificar datos, pero no dispone de marcas específicas para diseñar una página web (en ese caso sería más adecuado utilizar **HTML o Markdown**).
+Por ejemplo, no sería la mejor opción para crear la página web de `eljuego.py`.
 
-Tampoco sería recomendable utilizar archivos Juason como único sistema para guardar los datos de un juego multijugador con miles de usuarios; para eso sería más conveniente utilizar una base de datos.
+Una página web necesita títulos, párrafos, enlaces, imágenes y otros elementos visuales.
 
-Otro inconveniente es que los archivos pueden modificarse fácilmente, por lo que no serían seguros para almacenar información crítica que el jugador no deba poder alterar.
+Juason puede identificar datos, pero no dispone de marcas específicas para diseñar una página web.
+
+En ese caso sería más adecuado utilizar **HTML o Markdown**.
+
+Tampoco sería recomendable utilizar archivos Juason como único sistema para guardar los datos de un juego multijugador con miles de usuarios.
+
+Para ese tipo de situaciones sería más conveniente utilizar una base de datos.
+
+Otro inconveniente es que los archivos pueden modificarse fácilmente, por lo que no serían seguros para almacenar información que el jugador no debería poder alterar.
 
 ## Conclusión
 
 Con esta práctica hemos aprendido cómo funcionan los lenguajes de marcas y cuáles son sus principales características.
 
-Hemos creado Juason, un lenguaje sencillo basado en texto plano que permite organizar y almacenar los datos de un videojuego, definiendo sus reglas, clasificación y casos de uso.
+Hemos creado Juason, un lenguaje sencillo basado en texto plano que permite organizar y almacenar los datos de un videojuego.
+
+También hemos definido sus reglas, su clasificación y algunas situaciones en las que podría utilizarse.
 
 Aunque todavía es un prototipo, nos ha permitido comprender cómo las marcas pueden dar estructura y significado a la información.
 
 ---
 
-## Anexo: Evolución y versiones del lenguaje Juason
+## Evolución de versiones y diseño de Juason
 
-### Versión final optimizada (Basada en Ver 3)
+A continuación se muestran las distintas fases e ideas de desarrollo del lenguaje:
+
+### Versión 3 (Unknown weirdo)
 ```text
-name 'juan_del_monte'
+name 'apb'
 stats:
 /pv:
 //maximo 200
@@ -159,11 +179,11 @@ items:
 /pociones [
   vida 12
   efecto 'ataque'
-  calidad 'epico'
+  calidad 'épico'
 ];
 [
   vida -5
-  efecto 'curacion'
+  efecto 'curación'
   calidad 'normal'
 ]
 
@@ -171,11 +191,11 @@ items:
 [
   vida 12
   efecto 'ataque'
-  calidad 'epico'
+  calidad 'épico'
 ];
 [
   vida -5
-  efecto 'curacion'
+  efecto 'curación'
   calidad 'normal'
 ]
 
