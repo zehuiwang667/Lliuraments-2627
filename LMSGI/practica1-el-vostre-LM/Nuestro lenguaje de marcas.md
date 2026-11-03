@@ -112,13 +112,13 @@ Los valores pueden ser textos, números o valores booleanos.
 
 Los lenguajes de marcas pueden clasificarse según su función.
 
-Lenguajes de presentación: indican cómo debe mostrarse la información.
+- **Lenguajes de presentación:** indican cómo debe mostrarse la información.
 
-Lenguajes procedimentales: contienen instrucciones relacionadas con el formato del contenido.
+- **Lenguajes procedimentales:** contienen instrucciones relacionadas con el formato del contenido.
 
-Lenguajes descriptivos o semánticos: identifican qué representa cada elemento.
+- **Lenguajes descriptivos o semánticos:** identifican qué representa cada elemento.
 
-Juason pertenece principalmente al grupo de los lenguajes descriptivos o semánticos.
+Juason pertenece principalmente al grupo de los **lenguajes descriptivos o semánticos**.
 
 Esto se debe a que sus marcas indican el significado de los datos, pero no su apariencia.
 
@@ -128,47 +128,38 @@ Esa decisión correspondería al videojuego.
 
 ## Ejemplo de uso de Juason
 
-Imaginemos una partida de eljuego.py con la siguiente información.
+Imaginemos una partida de `eljuego.py` con la siguiente información.
 
-El jugador se llama apb.
+- El jugador se llama `juan del monte`.
+- Su personaje tiene 200 puntos de vida máxima y actualmente conserva 38.
+- En su inventario tiene dos pociones.
+- La primera tiene un valor de vida de 12, un efecto de ataque y una calidad épica.
+- La segunda tiene un valor de vida de -5, un efecto de curación y una calidad normal.
+- También tiene dos amuletos con esas mismas características.
+- Por último, tiene tres habilidades pasivas.
+- La primera está activada.
+- La segunda está desactivada.
+- La habilidad de ascenso está activada.
 
-Su personaje tiene 200 puntos de vida máxima y actualmente conserva 38.
-
-En su inventario tiene dos pociones.
-
-La primera tiene un valor de vida de 12, un efecto de ataque y una calidad épica.
-
-La segunda tiene un valor de vida de -5, un efecto de curación y una calidad normal.
-
-También tiene dos amuletos con esas mismas características.
-
-Por último, tiene tres habilidades pasivas.
-
-La primera está activada.
-
-La segunda está desactivada.
-
-La habilidad de ascenso está activada.
-
-Toda esta información puede guardarse en un archivo .juson utilizando las reglas que hemos definido.
+Toda esta información puede guardarse en un archivo `.juson` utilizando las reglas que hemos definido.
 
 ## ¿Cuándo sería útil Juason?
 
-Un ejemplo de uso sería el sistema de guardado de eljuego.py.
+Un ejemplo de uso sería el sistema de guardado de `eljuego.py`.
 
-Cuando el jugador cierre el juego, el programa podría guardar el estado de la partida en un archivo .juson.
+Cuando el jugador cierre el juego, el programa podría guardar el estado de la partida en un archivo `.juson`.
 
 Cuando vuelva a abrirlo, el programa podría leer ese archivo y recuperar los datos.
 
 Este sistema tendría algunas ventajas.
 
-Los archivos podrían abrirse con cualquier editor de texto.
+- Los archivos podrían abrirse con cualquier editor de texto.
 
-La información estaría organizada de forma sencilla.
+- La información estaría organizada de forma sencilla.
 
-Los datos serían relativamente fáciles de modificar manualmente.
+- Los datos serían relativamente fáciles de modificar manualmente.
 
-El juego podría interpretar los diferentes elementos siguiendo las reglas del lenguaje.
+- El juego podría interpretar los diferentes elementos siguiendo las reglas del lenguaje.
 
 Además, al tratarse de texto plano, no necesitaríamos un programa especial para visualizar el contenido del archivo.
 
@@ -176,13 +167,13 @@ Además, al tratarse de texto plano, no necesitaríamos un programa especial par
 
 Juason está pensado para almacenar información de partidas, pero no sería adecuado para cualquier situación.
 
-Por ejemplo, no sería la mejor opción para crear la página web de eljuego.py.
+Por ejemplo, no sería la mejor opción para crear la página web de `eljuego.py`.
 
 Una página web necesita títulos, párrafos, enlaces, imágenes y otros elementos visuales.
 
 Juason puede identificar datos, pero no dispone de marcas específicas para diseñar una página web.
 
-En ese caso sería más adecuado utilizar HTML o Markdown.
+En ese caso sería más adecuado utilizar **HTML o Markdown**.
 
 Tampoco sería recomendable utilizar archivos Juason como único sistema para guardar los datos de un juego multijugador con miles de usuarios.
 
