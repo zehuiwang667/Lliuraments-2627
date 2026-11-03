@@ -163,10 +163,6 @@ Aunque todavía es un prototipo, nos ha permitido comprender cómo las marcas pu
 
 ---
 
-## Evolución de versiones y diseño de Juason
-
-A continuación se muestran las distintas fases e ideas de desarrollo del lenguaje:
-
 ### Versión 3 (Unknown weirdo)
 ```text
 name 'apb'
@@ -203,3 +199,63 @@ habilidades:
 /pasiva_1 t
 /pasiva_2 f
 /pasiva_ascenso t
+```
+
+### Versión 2 (Minimalistic star)
+```text
+name 'apb'
+capitulo 1
+stats (
+  pv (
+    maximo 200
+    actual 38
+  )
+  items [
+    vida 12
+    efecto 'ataque'
+    calidad 'épico'
+  ],
+  [
+    vida -5
+    efecto 'curación'
+    calidad 'normal'
+  ]
+)
+```
+
+### Versión 1 (Chonky lang)
+```
+/name 'apb'
+/stats:
+//pv:
+///maximo 200
+///actual 38
+
+/items:
+//pociones [
+  /vida 12
+  /efecto 'ataque'
+  /calidad 'épico'
+];
+[
+  /vida -5
+  /efecto 'curación'
+  /calidad 'normal'
+]
+//amuletos:
+[
+  /vida 12
+  /efecto 'ataque'
+  /calidad 'épico'
+];
+[
+  /vida -5
+  /efecto 'curación'
+  /calidad 'normal'
+]
+
+/habilidades:
+//pasiva_1 t
+//pasiva_2 f
+//pasiva_ascenso t
+```
