@@ -32,13 +32,13 @@ Con el desarrollo de la informática aparecieron diferentes lenguajes de marcas:
 
 Los lenguajes de marcas tienen diferentes aplicaciones.
 
-Páginas web: HTML permite organizar el contenido de una página mediante títulos, párrafos, enlaces e imágenes.
+- Páginas web: HTML permite organizar el contenido de una página mediante títulos, párrafos, enlaces e imágenes.
 
-Almacenamiento de datos: XML permite guardar información de forma estructurada para que pueda ser interpretada por programas.
+- Almacenamiento de datos: XML permite guardar información de forma estructurada para que pueda ser interpretada por programas.
 
-Documentación: Markdown permite crear documentos con títulos, listas y otros elementos utilizando texto sencillo.
+- Documentación: Markdown permite crear documentos con títulos, listas y otros elementos utilizando texto sencillo.
 
-Documentos de oficina: los formatos DOCX y PPTX utilizan internamente documentos XML.
+- Documentos de oficina: los formatos DOCX y PPTX utilizan internamente documentos XML.
 
 Una de sus principales ventajas es que muchos de estos lenguajes pueden escribirse con un editor de texto normal.
 
@@ -50,41 +50,41 @@ La idea es que toda la información necesaria para recuperar una partida pueda a
 
 Por ejemplo, necesitamos guardar:
 
-El nombre del jugador.
+- El nombre del jugador.
 
-La vida actual y la vida máxima.
+- La vida actual y la vida máxima.
 
-Los objetos que tiene en su inventario.
+- Los objetos que tiene en su inventario.
 
-Las pociones y los amuletos.
+- Las pociones y los amuletos.
 
-Las habilidades que tiene activadas.
+- Las habilidades que tiene activadas.
 
 Juason permite organizar todos estos datos mediante unas reglas sencillas.
 
-El proyecto es un prototipo, por lo que todavía no hemos desarrollado un programa que interprete automáticamente los archivos.
+El proyecto es un **prototipo**, por lo que todavía no hemos desarrollado un programa que interprete automáticamente los archivos.
 
 ## ¿Cómo funciona Juason?
 
 Juason utiliza distintas marcas para organizar los datos.
 
-Los nombres identifican qué información se está guardando.
+- Los nombres identifican qué información se está guardando.
 
-Los dos puntos indican que un elemento contiene otros datos.
+- Los dos puntos indican que un elemento contiene otros datos.
 
-Las barras indican el nivel de profundidad de un elemento dentro de otro.
+- Las barras indican el nivel de profundidad de un elemento dentro de otro.
 
-Los corchetes permiten agrupar varios datos que pertenecen a un mismo objeto.
+- Los corchetes permiten agrupar varios datos que pertenecen a un mismo objeto.
 
-Los puntos y coma separan los elementos de una lista.
+- Los puntos y coma separan los elementos de una lista.
 
-Los textos se escriben entre comillas simples.
+- Los textos se escriben entre comillas simples.
 
-Los valores numéricos se escriben directamente.
+- Los valores numéricos se escriben directamente.
 
-Para los valores de verdadero o falso utilizamos las letras t y f.
+- Para los valores de verdadero o falso utilizamos las letras t y f.
 
-De esta manera, el lenguaje permite distinguir entre diferentes tipos de información sin necesidad de utilizar un formato complicado.
+  De esta manera, el lenguaje permite distinguir entre diferentes tipos de información sin necesidad de utilizar un formato complicado.
 
 ## Reglas de Juason
 
