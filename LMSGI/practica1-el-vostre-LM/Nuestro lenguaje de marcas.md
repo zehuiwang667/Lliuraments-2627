@@ -20,13 +20,13 @@ Su origen está relacionado con las marcas que se utilizaban en las imprentas pa
 
 Con el desarrollo de la informática aparecieron diferentes lenguajes de marcas:
 
-1969: GML, desarrollado en IBM.
-
-1986: SGML, convertido en un estándar internacional.
-
-1991: HTML, utilizado para crear páginas web.
-
-1998: XML, diseñado para estructurar e intercambiar información.
+- **1969:** GML, desarrollado en IBM.
+- 
+- **1986:** SGML, convertido en un estándar internacional.
+- 
+- **1991:** HTML, utilizado para crear páginas web.
+- 
+- **1998:** XML, diseñado para estructurar e intercambiar información.
 
 ## ¿Para qué sirven los lenguajes de marcas?
 
