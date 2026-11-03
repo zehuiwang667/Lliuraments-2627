@@ -1,6 +1,6 @@
 # Juason mark lang
 
-Juason - Práctica 1: Lenguajes de marcas
+## Juason - Práctica 1: Lenguajes de marcas
 
 Autores: Arnau Postigo y Zehui Wang
 Curso: 1. ASIX
@@ -10,7 +10,7 @@ Nuestro proyecto consiste en crear un lenguaje de marcas propio llamado Juason. 
 
 El lenguaje utiliza archivos de texto con la extensión .juson.
 
-¿Qué es un lenguaje de marcas?
+## 1. ¿Qué es un lenguaje de marcas?
 
 Un lenguaje de marcas es una forma de organizar información utilizando texto y símbolos que permiten identificar las diferentes partes de un documento.
 
@@ -28,7 +28,7 @@ Con el desarrollo de la informática aparecieron diferentes lenguajes de marcas:
 
 1998: XML, diseñado para estructurar e intercambiar información.
 
-¿Para qué sirven los lenguajes de marcas?
+## ¿Para qué sirven los lenguajes de marcas?
 
 Los lenguajes de marcas tienen diferentes aplicaciones.
 
@@ -42,7 +42,7 @@ Documentos de oficina: los formatos DOCX y PPTX utilizan internamente documentos
 
 Una de sus principales ventajas es que muchos de estos lenguajes pueden escribirse con un editor de texto normal.
 
-Nuestro lenguaje: Juason
+## Nuestro lenguaje: Juason
 
 Juason es un lenguaje de marcas que hemos diseñado para guardar las partidas de eljuego.py, un juego de rol por turnos.
 
@@ -64,7 +64,7 @@ Juason permite organizar todos estos datos mediante unas reglas sencillas.
 
 El proyecto es un prototipo, por lo que todavía no hemos desarrollado un programa que interprete automáticamente los archivos.
 
-¿Cómo funciona Juason?
+## ¿Cómo funciona Juason?
 
 Juason utiliza distintas marcas para organizar los datos.
 
@@ -86,7 +86,7 @@ Para los valores de verdadero o falso utilizamos las letras t y f.
 
 De esta manera, el lenguaje permite distinguir entre diferentes tipos de información sin necesidad de utilizar un formato complicado.
 
-Reglas de Juason
+## Reglas de Juason
 
 Para que el lenguaje funcione correctamente hemos establecido algunas reglas.
 
@@ -108,7 +108,7 @@ Dentro de los corchetes, los datos de cada objeto se escriben sin barras, porque
 
 Los valores pueden ser textos, números o valores booleanos.
 
-Clasificación de nuestro lenguaje
+## Clasificación de nuestro lenguaje
 
 Los lenguajes de marcas pueden clasificarse según su función.
 
@@ -126,7 +126,7 @@ Por ejemplo, Juason permite identificar la vida actual de un personaje, pero no 
 
 Esa decisión correspondería al videojuego.
 
-Ejemplo de uso de Juason
+## Ejemplo de uso de Juason
 
 Imaginemos una partida de eljuego.py con la siguiente información.
 
@@ -152,7 +152,7 @@ La habilidad de ascenso está activada.
 
 Toda esta información puede guardarse en un archivo .juson utilizando las reglas que hemos definido.
 
-¿Cuándo sería útil Juason?
+## ¿Cuándo sería útil Juason?
 
 Un ejemplo de uso sería el sistema de guardado de eljuego.py.
 
@@ -172,7 +172,7 @@ El juego podría interpretar los diferentes elementos siguiendo las reglas del l
 
 Además, al tratarse de texto plano, no necesitaríamos un programa especial para visualizar el contenido del archivo.
 
-¿Cuándo no sería adecuado Juason?
+## ¿Cuándo no sería adecuado Juason?
 
 Juason está pensado para almacenar información de partidas, pero no sería adecuado para cualquier situación.
 
@@ -190,35 +190,7 @@ Para ese tipo de situaciones sería más conveniente utilizar una base de datos.
 
 Otro inconveniente es que los archivos pueden modificarse fácilmente, por lo que no serían seguros para almacenar información que el jugador no debería poder alterar.
 
-¿Por qué Juason es un lenguaje de marcas?
-
-Para considerar Juason un lenguaje de marcas debemos comprobar que cumple los cuatro requisitos de la práctica.
-
-Primer requisito: estar basado en texto plano.
-
-Juason utiliza caracteres normales que pueden escribirse y leerse con cualquier editor de texto.
-
-Segundo requisito: utilizar metadatos.
-
-Los nombres de los elementos y sus marcas permiten identificar el significado y la organización de la información.
-
-Por ejemplo, podemos diferenciar entre la vida máxima y la vida actual de un personaje.
-
-Tercer requisito: facilitar el procesamiento automático.
-
-El lenguaje tiene unas reglas definidas que permitirían desarrollar un programa para leer los datos e interpretarlos.
-
-Por ejemplo, un programa podría reconocer los grupos, identificar sus elementos y recuperar los valores almacenados.
-
-Cuarto requisito: facilitar la representación o interpretación de los datos.
-
-La información está organizada de manera que tanto una persona como un programa puedan comprender qué representa cada valor.
-
-El videojuego podría utilizar estos datos para reconstruir el estado de la partida, mostrar la vida del personaje o recuperar su inventario.
-
-Por estos motivos, consideramos que Juason cumple las características necesarias para clasificarse como un lenguaje de marcas.
-
-Conclusión
+## Conclusión
 
 Con esta práctica hemos aprendido cómo funcionan los lenguajes de marcas y cuáles son sus principales características.
 
