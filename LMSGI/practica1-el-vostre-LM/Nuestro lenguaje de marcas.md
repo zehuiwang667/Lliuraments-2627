@@ -3,7 +3,7 @@
 ## Juason - Práctica 1: Lenguajes de marcas
 
 **Autores:** Arnau Postigo y Zehui Wang  
-**Curso:** 1.º ASIX  
+**Curso:** 1º ASIX  
 **Módulo:** Lenguajes de marcas
 
 Nuestro proyecto consiste en crear un lenguaje de marcas propio llamado **Juason**. Su objetivo es guardar la información de las partidas de un videojuego llamado `eljuego.py`.
