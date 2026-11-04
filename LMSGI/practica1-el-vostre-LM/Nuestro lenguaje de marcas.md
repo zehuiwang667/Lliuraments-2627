@@ -259,3 +259,4 @@ stats (
 //pasiva_2 f
 //pasiva_ascenso t
 ```
+Enllaç al Canva ```https://canva.link/dmbpweq5lndln4v```
